@@ -1,0 +1,70 @@
+---
+title: "Homework1"
+author: "Orlando Harrisson, David Istvan"
+date: "1 juillet 2019"
+output: html_document
+theme: cerulean
+highlight: tango
+---
+
+
+
+{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+
+# Group Members
+David Istvan:
+
+![David in the mountains](https://scontent-yyz1-1.cdninstagram.com/vp/ffbaaa0487b7b25eb77dc0da40519cec/5D82C98B/t51.2885-19/s150x150/50247619_249066259371241_2049169312563855360_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com&se=8)
+
+My favourite hobby is snowboarding:
+
+![(No that's not me)](http://ilovetoskiandboard.com/wp-content/uploads/2015/03/snowboarding-switzerland-620x350.jpg)
+
+"An interesting fact about me is that I don't like to sleep.
+Use the > character in front of a line, just like in email.
+Use it if you're quoting a person, a song or whatever.
+Add the >> if you want to quote within a quote."
+
+
+
+Orlando Harrisson:
+
+![Orlando having a good time](https://media.licdn.com/dms/image/C4D03AQEallSzczhK0w/profile-displayphoto-shrink_200_200/0?e=1567641600&v=beta&t=J0oyIEeGhTmgU6hsdsyUBWrg5WTlpsVW39Ua-t6YuRA)
+
+
+
+# Introduction
+In this section we will insert a videoclip from Youtube.
+
+<iframe width='560' height='315' src='https://www.youtube.com/watch?v=LQrlmcAghq8&feature=youtu.be' frameborder='0' allowfullscreen></iframe>
+
+
+
+{r}
+x <- rnorm(100)
+
+c("median", median(x))
+
+c("mean", mean(x))
+c("variance", var(x))
+
+
+## Section 4 answer:
+In our opinion the values will not be exactly 0 and 1. Our sample has values with mean of zero and variance of 1 therefore when the 100 values are randomly extracted from this distribution it makes sense that the simulation will not have exact values.
+
+
+
+## Histogram of simulation
+
+You can also embed plots, for example:
+
+{r pressure, echo=FALSE}
+hist(x, col = "cyan", main = "Histogram of simulation")
+
+
+
+##Formula
+$E[var\{ v_n(\theta)} }]$
