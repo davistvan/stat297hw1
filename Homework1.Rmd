@@ -8,10 +8,9 @@ highlight: tango
 ---
 
 
-
-{r setup, include=FALSE}
+```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-
+```
 
 
 # Section 3: Group Members
@@ -35,6 +34,8 @@ Orlando Harrisson:
 
 ![Orlando having a good time](https://media.licdn.com/dms/image/C4D03AQEallSzczhK0w/profile-displayphoto-shrink_200_200/0?e=1567641600&v=beta&t=J0oyIEeGhTmgU6hsdsyUBWrg5WTlpsVW39Ua-t6YuRA)
 
+I like to swim in the lake on summer and skiing on the mountains in winter.
+Yet, my favorite season is autumn because I like to see the forests with yellow leaves and eat marrons chauds.
 
 
 # Section 2: Introduction
@@ -43,16 +44,21 @@ In this section we will insert a videoclip from Youtube.
 <iframe width='560' height='315' src='https://www.youtube.com/watch?v=LQrlmcAghq8&feature=youtu.be' frameborder='0' allowfullscreen></iframe>
 
 
-``` {Random Sampling, echo = FALSE}
+
+## Sumary for simulations
+``` {r echo = FALSE}
 
 x <- rnorm(100)
 
 c("median", median(x))
-
 c("mean", mean(x))
 c("variance", var(x))
 
 ```
+
+The median is `r median(x)` \
+The mean is `r median(x)` \
+THe variance is `r var(x)` \
 
 
 
