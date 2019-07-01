@@ -42,7 +42,7 @@ In this section we will insert a videoclip from Youtube.
 <iframe width='560' height='315' src='https://www.youtube.com/watch?v=LQrlmcAghq8&feature=youtu.be' frameborder='0' allowfullscreen></iframe>
 
 
-``` {Random Sampling}
+``` {Random Sampling, echo = TRUE}
 
 x <- rnorm(100)
 
