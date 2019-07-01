@@ -5,6 +5,7 @@ date: "1 juillet 2019"
 output: html_document
 theme: cerulean
 highlight: tango
+bibliography: bibliography.bibtex
 ---
 
 
@@ -18,17 +19,31 @@ David Istvan:
 
 ![David in the mountains](https://scontent-yyz1-1.cdninstagram.com/vp/ffbaaa0487b7b25eb77dc0da40519cec/5D82C98B/t51.2885-19/s150x150/50247619_249066259371241_2049169312563855360_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com&se=8)
 
-My favourite hobby is snowboarding:
+My favourite hobby is snowboarding, because it gives me the feeling that I am free:
 
 ![(No that's not me)](http://ilovetoskiandboard.com/wp-content/uploads/2015/03/snowboarding-switzerland-620x350.jpg)
 
 An interesting fact about me is that I don't like to sleep.
+I could get so many things done instead!
 
 My favourite quote:
-> Imagination is more important than knowledge
-A. Einsten
 
 
+> Imagination is more important
+> than knowledge
+A. Einstein
+
+@article{harrar2013taste,
+  title={The taste of cutlery: how the taste of food is affected by 
+  the weight, size, shape, and colour of the cutlery used to eat it},
+  author={Harrar, Vanessa and Spence, Charles},
+  journal={Flavour},
+  volume={2},
+  number={1},
+  pages={21},
+  year={2013},
+  publisher={BioMed Central}
+}
 
 Orlando Harrisson:
 
