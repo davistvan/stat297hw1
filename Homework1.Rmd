@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-# Group Members
+# Section 3: Group Members
 David Istvan:
 
 ![David in the mountains](https://scontent-yyz1-1.cdninstagram.com/vp/ffbaaa0487b7b25eb77dc0da40519cec/5D82C98B/t51.2885-19/s150x150/50247619_249066259371241_2049169312563855360_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com&se=8)
@@ -22,10 +22,11 @@ My favourite hobby is snowboarding:
 
 ![(No that's not me)](http://ilovetoskiandboard.com/wp-content/uploads/2015/03/snowboarding-switzerland-620x350.jpg)
 
-"An interesting fact about me is that I don't like to sleep.
-Use the > character in front of a line, just like in email.
-Use it if you're quoting a person, a song or whatever.
-Add the >> if you want to quote within a quote."
+An interesting fact about me is that I don't like to sleep.
+
+My favourite quote:
+> Imagination is more important than knowledge
+A. Einsten
 
 
 
@@ -37,7 +38,7 @@ I like to swim in the lake on summer and skiing on the mountains in winter.
 Yet, my favorite season is autumn because I like to see the forests with yellow leaves and eat marrons chauds.
 
 
-# Introduction
+# Section 2: Introduction
 In this section we will insert a videoclip from Youtube.
 
 <iframe width='560' height='315' src='https://www.youtube.com/watch?v=LQrlmcAghq8&feature=youtu.be' frameborder='0' allowfullscreen></iframe>
@@ -71,5 +72,5 @@ hist(x, col = "cyan", main = "Histogram of simulation")
 
 
 
-##Formula
+## Formula
 $E[var\{ v_n(\theta)} }]$
