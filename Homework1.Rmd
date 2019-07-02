@@ -49,10 +49,6 @@ In this section we will insert a videoclip from Youtube.
 
 x <- rnorm(100)
 
-c("median", median(x))
-c("mean", mean(x))
-c("variance", var(x))
-
 ```
 
 The median is `r median(x)` \
