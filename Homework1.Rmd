@@ -43,12 +43,13 @@ In this section we will insert a videoclip from Youtube.
 <iframe width='560' height='315' src='https://www.youtube.com/watch?v=LQrlmcAghq8&feature=youtu.be' frameborder='0' allowfullscreen></iframe>
 
 
+
+## Sumary for simulations
 ``` {r echo = FALSE}
 
 x <- rnorm(100)
 
 c("median", median(x))
-
 c("mean", mean(x))
 c("variance", var(x))
 
