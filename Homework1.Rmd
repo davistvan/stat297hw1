@@ -42,7 +42,7 @@ In this section we will insert a videoclip from Youtube.
 <iframe width='560' height='315' src='https://www.youtube.com/watch?v=LQrlmcAghq8&feature=youtu.be' frameborder='0' allowfullscreen></iframe>
 
 
-``` {Random Sampling}
+``` {Random Sampling, echo = FALSE}
 
 x <- rnorm(100)
 
@@ -52,6 +52,8 @@ c("mean", mean(x))
 c("variance", var(x))
 
 ```
+
+
 
 ## Section 4 answer:
 In our opinion the values will not be exactly 0 and 1. Our sample has values with mean of zero and variance of 1 therefore when the 100 values are randomly extracted from this distribution it makes sense that the simulation will not have exact values.
