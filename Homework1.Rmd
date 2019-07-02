@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = TRUE)
 # Section 3: Group Members
 David Istvan:
 
-![David in the mountains](https://scontent-yyz1-1.cdninstagram.com/vp/ffbaaa0487b7b25eb77dc0da40519cec/5D82C98B/t51.2885-19/s150x150/50247619_249066259371241_2049169312563855360_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com&se=8)
+![David in the mountains](https://scontent-yyz1-1.cdninstagram.com/vp/ffbaaa0487b7b25eb77dc0da40519cec/5D82C98B/t51.2885-19/s150x150/50247619_249066259371241_2049169312563855360_n.jpg?_nc_ht=scontent-yyz1-1.cdninstagram.com&se=8){width=500px}
 
 My favourite hobby is snowboarding, because it gives me the feeling that I am free:
 
@@ -47,7 +47,7 @@ A. Einstein
 
 Orlando Harrisson:
 
-![Orlando having a good time](https://media.licdn.com/dms/image/C4D03AQEallSzczhK0w/profile-displayphoto-shrink_200_200/0?e=1567641600&v=beta&t=J0oyIEeGhTmgU6hsdsyUBWrg5WTlpsVW39Ua-t6YuRA)
+![Orlando having a good time](https://media.licdn.com/dms/image/C4D03AQEallSzczhK0w/profile-displayphoto-shrink_200_200/0?e=1567641600&v=beta&t=J0oyIEeGhTmgU6hsdsyUBWrg5WTlpsVW39Ua-t6YuRA){width=500px}
 
 I like to swim in the lake on summer and skiing on the mountains in winter.
 Yet, my favorite season is autumn because I like to see the forests with yellow leaves and eat marrons chauds.
@@ -62,7 +62,7 @@ My favorite quote is:
 In this section we will insert a videoclip from Youtube.
 
 
-[![Our presentation video](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=LQrlmcAghq8 "presentation_video")
+[![Our presentation video](http://img.youtube.com/vi/LQrlmcAghq8/0.jpg)]{width=500px}(https://www.youtube.com/watch?v=LQrlmcAghq8 "presentation_video")
 
 
 ## Sumary for simulations
@@ -91,4 +91,4 @@ hist(x, col = "cyan", main = "Histogram of simulation")
 
 
 ## Formula
-$E[var\{ v_n(\theta)} }]$
+$E[var\{\nu_1 (\hat{\theta},n)\}|\;\;\hat{\theta}]=var\{  v_1\}$
